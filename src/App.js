@@ -1,7 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
 import { useEffect, useState } from 'react';
-import Country from './component/Countries/Country';
 
 function App() {
   return (
@@ -28,23 +27,19 @@ function LoadCounrties(){
       {/* {
         countries.map(country=> <p>{country.name.common}</p>)
       } */}
-      {/* {
-        countries.map(country=><Country name={country.name.common} population={country.population}></Country>)
-      } */}
-
       {
-        countries.map(country=><Country name={country.name.common} population={country.population}></Country> )
+        countries.map(country=><Country name={country.name.common} population={country.population}></Country>)
       }
     </div>
   )
 }
-/* function Country(props){
+function Country(props){
   return(
     <div className='country'>
       <h3>Name: {props.name}</h3>
       <h4>Population: {props.population}</h4>
     </div>
   )
-} */
+}
 
 export default App;
