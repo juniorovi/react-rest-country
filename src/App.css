@@ -36,3 +36,11 @@
     transform: rotate(360deg);
   }
 }
+
+.country{
+  background-color: hotpink;
+  border: 2px solid goldenrod;
+  margin: 15px;
+  padding: 10px;
+  border-radius: 180px;
+}
