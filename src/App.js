@@ -1,9 +1,6 @@
-import logo from './logo.svg';
 import './App.css';
 import { useEffect, useState } from 'react';
 import Country from './components/Countries/Country';
-
-
 
 function App() {
   return (
