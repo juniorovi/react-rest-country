@@ -1,9 +1,8 @@
 import React from 'react';
-import './Country.css';
 
 const Country = (props) => {
     return (
-        <div className='CountryOtherFile'>
+        <div>
             <h1>Country Name: {props.name}</h1>
         </div>
     );
